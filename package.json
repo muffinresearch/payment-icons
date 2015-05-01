@@ -1,0 +1,24 @@
+{
+  "name": "payment-icons",
+  "version": "0.0.1",
+  "description": "payment icon svgs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muffinresearch/payment-icons.git"
+  },
+  "keywords": [
+    "icons",
+    "payments",
+    "font",
+    "creditcards"
+  ],
+  "author": "Stuart Colville",
+  "license": "MPL 2.0",
+  "bugs": {
+    "url": "https://github.com/muffinresearch/payment-icons/issues"
+  },
+  "homepage": "https://github.com/muffinresearch/payment-icons#readme"
+}
