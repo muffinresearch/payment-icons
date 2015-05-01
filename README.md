@@ -2,7 +2,11 @@
 
 Payment related svg icons for use in fonts or spritesheets.
 
-# License
+## Usages
+
+The raw sketch output is in the svg directory. The minified svg output is in the min dir.
+
+##  License
 
 Icon marks are copyright their respective owners.
 
