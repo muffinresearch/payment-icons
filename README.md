@@ -2,7 +2,7 @@
 
 Payment related svg icons for use in fonts or spritesheets.
 
-## Usages
+## Usage
 
 The raw sketch output is in the svg directory. The minified svg output is in the min dir.
 
