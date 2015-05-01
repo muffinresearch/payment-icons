@@ -1,2 +1,3 @@
-# payments-icons
+# Payment-icons
+
 Credit card font icon set.
