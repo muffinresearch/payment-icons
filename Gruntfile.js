@@ -13,12 +13,17 @@ module.exports = function(grunt) {
       dist: {
         expand: true,
         cwd: 'svg/',
-        src: ['*.svg'],
+        src: ['**/*.svg'],
         dest: 'min',
       }
+    },
+
+    clean: {
+      min: ['min']
     }
+
   });
 
-  grunt.registerTask('default', ['svgmin']);
+  grunt.registerTask('default', ['clean', 'svgmin']);
 
 };
