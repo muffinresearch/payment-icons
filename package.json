@@ -24,6 +24,7 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.6.0",
+    "grunt-svg-sprite": "^1.1.2",
     "grunt-svgmin": "^2.0.1",
     "load-grunt-tasks": "^3.1.0"
   }
