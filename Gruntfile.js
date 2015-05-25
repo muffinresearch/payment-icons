@@ -19,13 +19,14 @@ module.exports = function(grunt) {
     },
 
     clean: {
-      min: ['min']
+      min: ['min'],
+      build: ['build']
     },
 
     svg_sprite: {
       dist: {
         expand: true,
-        cwd: 'svg',
+        cwd: 'min',
         src: ['**/*.svg'],
         dest: 'build',
         options: {
@@ -60,6 +61,7 @@ module.exports = function(grunt) {
 
   });
 
-  grunt.registerTask('default', ['clean', 'svgmin']);
+  grunt.registerTask('default', ['clean', 'svgmin', 'svg_sprite']);
+  grunt.registerTask('publish', ['clean', 'svgmin', 'svg_sprite', 'gh-pages']);
 
 };
