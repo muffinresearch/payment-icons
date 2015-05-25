@@ -31,6 +31,9 @@ module.exports = function(grunt) {
         dest: 'build',
         options: {
           shape: {
+            id: {
+              separator: '-',
+            },
             dimension: {
               maxWidth: 125,
               maxHeight: 125,
