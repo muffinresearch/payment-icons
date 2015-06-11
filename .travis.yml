@@ -1,3 +1,7 @@
+language: node_js
+sudo: false
+node_js:
+- "0.10"
 deploy:
   provider: npm
   email: scolville@mozilla.com
