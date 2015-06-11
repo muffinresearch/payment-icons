@@ -1,9 +1,9 @@
 {
   "name": "payment-icons",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "payment icon svgs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -13,7 +13,7 @@
     "icons",
     "payments",
     "font",
-    "creditcards"
+    "credit cards"
   ],
   "author": "Stuart Colville",
   "license": "MPL 2.0",
