@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/payment-icons.svg)](http://badge.fury.io/js/payment-icons)
+
 # Payment-icons
 
 Payment related svg icons for use in fonts or spritesheets.
@@ -10,7 +12,7 @@ output is in the min dir.
 The easiest way to consume these icons is to npm install from github and use your favorite toolchain
 to build fonts or sprites e.g.
 
-`npm install --save muffinresearch/payment-icons#0.0.4`
+`npm install payment-icons`
 
 ## Example
 
