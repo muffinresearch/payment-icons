@@ -1,0 +1,8 @@
+deploy:
+  provider: npm
+  email: scolville@mozilla.com
+  api_key:
+    secure: QemDmFEfuXE6/WP1Fq5BzGeZKPLflZBFV9C/UqHBafLkCF7fwv23cA+2XKpVbq5pBx4NNLtZEL2JXTw/0rGxFwTsKFLZorSDPRGN8gfPYKgCjepqM1xwm+1IsT4WIYAzdrKiVFYTlwvBTZWxB4UAToTMjgu18K23PiiK6uQwa9Y=
+  on:
+    tags: true
+    repo: muffinresearch/payment-icons
