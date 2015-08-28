@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="750px" height="471px"
+	 viewBox="0 0 750 471" enable-background="new 0 0 750 471" xml:space="preserve">
+<title>diners</title>
+<desc>Created with Sketch.</desc>
+<g id="diners" sketch:type="MSLayerGroup">
+	<path id="Shape-path" sketch:type="MSShapeGroup" fill="#0079BE" d="M584.934,237.947c0-99.416-82.981-168.133-173.896-168.1
+		h-78.242c-92.003-0.033-167.73,68.705-167.73,168.1c0,90.931,75.728,165.641,167.73,165.203h78.242
+		C501.952,403.587,584.934,328.857,584.934,237.947L584.934,237.947z"/>
+	<path id="Shape-path_1_" sketch:type="MSShapeGroup" fill="#FFFFFF" d="M333.281,83.931
+		c-84.07,0.026-152.194,68.308-152.215,152.58c0.021,84.258,68.144,152.532,152.215,152.559
+		c84.089-0.026,152.228-68.301,152.239-152.559C485.507,152.238,417.369,83.957,333.281,83.931L333.281,83.931z"/>
+	<path id="Path" sketch:type="MSShapeGroup" fill="#0079BE" d="M237.066,236.098c0.08-41.18,25.747-76.296,61.94-90.25v180.48
+		C262.813,312.381,237.145,277.283,237.066,236.098z M368.066,326.373V145.847c36.207,13.921,61.914,49.057,61.98,90.256
+		C429.98,277.316,404.273,312.426,368.066,326.373z"/>
+</g>
+</svg>
