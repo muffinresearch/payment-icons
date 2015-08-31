@@ -35,9 +35,12 @@ module.exports = function(grunt) {
               separator: '-',
             },
             dimension: {
-              maxWidth: 125,
-              maxHeight: 125,
-            }
+              maxWidth: 120,
+              maxHeight: 120,
+            },
+            spacing: { 
+              padding: 1
+            },
           },
           dest: "build",
           mode: {
