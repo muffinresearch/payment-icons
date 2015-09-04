@@ -1,12 +1,13 @@
 language: node_js
 sudo: false
 node_js:
-- "0.10"
+- '0.10'
+before_install: npm install -g npm@'>=2.13.5'
 deploy:
   provider: npm
   email: scolville@mozilla.com
   api_key:
-    secure: QemDmFEfuXE6/WP1Fq5BzGeZKPLflZBFV9C/UqHBafLkCF7fwv23cA+2XKpVbq5pBx4NNLtZEL2JXTw/0rGxFwTsKFLZorSDPRGN8gfPYKgCjepqM1xwm+1IsT4WIYAzdrKiVFYTlwvBTZWxB4UAToTMjgu18K23PiiK6uQwa9Y=
+    secure: LAH/gwwkyD68uh6q5WV9ojYuE7erY2pzSPQ6KUpp7M66N+cRrJp7/6R4/0cWYxdR8uKr4h1OOuA6Ex1mLTQTpmxS9QYL6CfkdShQYOcB5rzw1aeoTAV8gfyB7z4qZMO/DiGUfrx7to2ShEq2ORdLtrWRA8DERZb1k+/AU5fbge4=
   on:
     tags: true
     repo: muffinresearch/payment-icons
