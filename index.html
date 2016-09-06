@@ -4,175 +4,205 @@
 		<meta charset="utf-8"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
 		<title>SVG CSS sprite preview | svg-sprite</title>
-		<style>@charset "UTF-8";body{padding:0;margin:0;color:#666;background:#fafafa;font-family:Arial,Helvetica,sans-serif;font-size:1em;line-height:1.4}header{display:block;padding:3em 3em 2em 3em;background-color:#fff}header p{margin:2em 0 0 0}section{border-top:1px solid #eee;padding:2em 3em 0 3em}section ul{margin:0;padding:0}section li{display:inline;display:inline-block;background-color:#fff;position:relative;margin:0 2em 2em 0;vertical-align:top;border:1px solid #ccc;padding:1em 1em 3em 1em;cursor:default}.icon-box{margin:0;width:144px;height:144px;position:relative;background:#ccc url(data:image/gif;base64,R0lGODlhDAAMAIAAAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjk4OTI0MUY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjk4OTI0MkY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCOTg5MjNGRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCOTg5MjQwRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAwADAAAAhaEH6mHmmzcgzJAUG/NVGrfOZ8YLlABADs=) top left repeat;border:1px solid #ccc;display:table-cell;vertical-align:middle;text-align:center}.icon{display:inline;display:inline-block}h1{margin-top:0}h2{margin:0;padding:0;font-size:1em;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:absolute;left:1em;right:1em;bottom:1em}footer{display:block;margin:0;padding:0 3em 3em 3em}footer p{margin:0;font-size:.7em}footer a{color:#0f7595;margin-left:0}</style>
-		<style>i{text-indent:200%;white-space:nowrap;overflow:hidden;display:inline-block}</style>
-		
+		<style>@charset "UTF-8";body{padding:0;margin:0;color:#666;background:#fafafa;font-family:Arial,Helvetica,sans-serif;font-size:1em;line-height:1.4}header{display:block;padding:3em 3em 2em 3em;background-color:#fff}header p{margin:2em 0 0 0}section{border-top:1px solid #eee;padding:2em 3em 0 3em}section ul{margin:0;padding:0}section li{display:inline;display:inline-block;background-color:#fff;position:relative;margin:0 2em 2em 0;vertical-align:top;border:1px solid #ccc;padding:1em 1em 3em 1em;cursor:default}.icon-box{margin:0;width:144px;height:144px;position:relative;background:#ccc url("data:image/gif;base64,R0lGODlhDAAMAIAAAMzMzP///yH/C1hNUCBEYXRhWE1QPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS4wLWMwNjEgNjQuMTQwOTQ5LCAyMDEwLzEyLzA3LTEwOjU3OjAxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOnhtcE1NPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvbW0vIiB4bWxuczpzdFJlZj0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL3NUeXBlL1Jlc291cmNlUmVmIyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1LjEgV2luZG93cyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozQjk4OTI0MUY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozQjk4OTI0MkY5NTIxMUUyQkJDMEI5NEFEM0Y1QTYwQyI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjNCOTg5MjNGRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjNCOTg5MjQwRjk1MjExRTJCQkMwQjk0QUQzRjVBNjBDIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+Af/+/fz7+vn49/b19PPy8fDv7u3s6+rp6Ofm5eTj4uHg397d3Nva2djX1tXU09LR0M/OzczLysnIx8bFxMPCwcC/vr28u7q5uLe2tbSzsrGwr66trKuqqainpqWko6KhoJ+enZybmpmYl5aVlJOSkZCPjo2Mi4qJiIeGhYSDgoGAf359fHt6eXh3dnV0c3JxcG9ubWxramloZ2ZlZGNiYWBfXl1cW1pZWFdWVVRTUlFQT05NTEtKSUhHRkVEQ0JBQD8+PTw7Ojk4NzY1NDMyMTAvLi0sKyopKCcmJSQjIiEgHx4dHBsaGRgXFhUUExIREA8ODQwLCgkIBwYFBAMCAQAAIfkEAAAAAAAsAAAAAAwADAAAAhaEH6mHmmzcgzJAUG/NVGrfOZ8YLlABADs=") top left repeat;border:1px solid #ccc;display:table-cell;vertical-align:middle;text-align:center}.icon{display:inline;display:inline-block}h1{margin-top:0}h2{margin:0;padding:0;font-size:1em;font-weight:normal;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;position:absolute;left:1em;right:1em;bottom:1em}footer{display:block;margin:0;padding:0 3em 3em 3em}footer p{margin:0;font-size:.7em}footer a{color:#0f7595;margin-left:0}</style>
+		<style>i{text-indent:200%;white-space:nowrap;overflow:hidden;display:inline-block;background-size:732px 547px!important}</style>
+
 <!--
-	
+
 Sprite CSS
 ====================================================================================================
-This is an all-in-one inline version of the CSS necessary to use the SVG sprite. 
+This is an all-in-one inline version of the CSS necessary to use the SVG sprite.
 
 -->
 
 <style type="text/css">
 .svg-flat-amex {
-	background: url(svg/sprite.css.svg) 25% 0 no-repeat;
+	background: url("svg/sprite.css.svg") 20% 0 no-repeat;
 	width: 122px;
 	height: 77.16px;
 }
+.svg-flat-default {
+	background: url("svg/sprite.css.svg") 40% 66.25500383272295% no-repeat;
+	width: 122px;
+	height: 77.36px;
+}
 .svg-flat-diners {
-	background: url(svg/sprite.css.svg) 0 66.33873293189721% no-repeat;
+	background: url("svg/sprite.css.svg") 0 16.472191465803594% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-flat-discover {
-	background: url(svg/sprite.css.svg) 0 16.828396322778346% no-repeat;
+	background: url("svg/sprite.css.svg") 0 33.06548127885108% no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
 .svg-flat-jcb {
-	background: url(svg/sprite.css.svg) 25% 16.76702569756594% no-repeat;
+	background: url("svg/sprite.css.svg") 20% 16.472191465803594% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-flat-maestro {
-	background: url(svg/sprite.css.svg) 0 33.53405139513188% no-repeat;
+	background: url("svg/sprite.css.svg") 20% 32.94438293160719% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-flat-mastercard {
-	background: url(svg/sprite.css.svg) 25% 33.53405139513188% no-repeat;
+	background: url("svg/sprite.css.svg") 40% 0 no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-flat-paypal {
-	background: url(svg/sprite.css.svg) 50% 0 no-repeat;
+	background: url("svg/sprite.css.svg") 40% 16.53274063942554% no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
+.svg-flat-security-code {
+	background: url("svg/sprite.css.svg") 40% 33.31062090111575% no-repeat;
+	width: 122px;
+	height: 77.36px;
+}
 .svg-flat-visa {
-	background: url(svg/sprite.css.svg) 50% 16.76702569756594% no-repeat;
+	background: url("svg/sprite.css.svg") 0 49.782812366919345% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-mono-amex {
-	background: url(svg/sprite.css.svg) 50% 33.1806227199457% no-repeat;
+	background: url("svg/sprite.css.svg") 60% 0 no-repeat;
 	width: 122px;
 	height: 77.52px;
 }
+.svg-mono-default {
+	background: url("svg/sprite.css.svg") 60% 16.506260114129972% no-repeat;
+	width: 122px;
+	height: 77.36px;
+}
 .svg-mono-diners {
-	background: url(svg/sprite.css.svg) 0 49.93639216351455% no-repeat;
+	background: url("svg/sprite.css.svg") 60% 32.97845157993357% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-mono-discover {
-	background: url(svg/sprite.css.svg) 25% 49.93639216351455% no-repeat;
+	background: url("svg/sprite.css.svg") 60% 49.45064304573716% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-mono-jcb {
-	background: url(svg/sprite.css.svg) 50% 49.93639216351455% no-repeat;
+	background: url("svg/sprite.css.svg") 20% 49.782812366919345% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-mono-maestro {
-	background: url(svg/sprite.css.svg) 75% 0 no-repeat;
+	background: url("svg/sprite.css.svg") 40% 49.782812366919345% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-mono-mastercard {
-	background: url(svg/sprite.css.svg) 75% 16.402340768382665% no-repeat;
+	background: url("svg/sprite.css.svg") 0 66.25500383272295% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-mono-paypal {
-	background: url(svg/sprite.css.svg) 75% 32.92475314947225% no-repeat;
+	background: url("svg/sprite.css.svg") 0 83.0312873995555% no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
+.svg-mono-security-code {
+	background: url("svg/sprite.css.svg") 20% 66.25500383272295% no-repeat;
+	width: 122px;
+	height: 77.36px;
+}
 .svg-mono-visa {
-	background: url(svg/sprite.css.svg) 75% 49.57170723433127% no-repeat;
+	background: url("svg/sprite.css.svg") 0 0 no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-outline-amex {
-	background: url(svg/sprite.css.svg) 0 0 no-repeat;
+	background: url("svg/sprite.css.svg") 20% 83.0312873995555% no-repeat;
+	width: 122px;
+	height: 79.08px;
+}
+.svg-outline-default {
+	background: url("svg/sprite.css.svg") 40% 83.0312873995555% no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
 .svg-outline-diners {
-	background: url(svg/sprite.css.svg) 0 83.04392236976507% no-repeat;
+	background: url("svg/sprite.css.svg") 60% 83.0312873995555% no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
 .svg-outline-discover {
-	background: url(svg/sprite.css.svg) 25% 83.04392236976507% no-repeat;
+	background: url("svg/sprite.css.svg") 80% 0 no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
 .svg-outline-jcb {
-	background: url(svg/sprite.css.svg) 50% 83.04392236976507% no-repeat;
+	background: url("svg/sprite.css.svg") 80% 16.90032484185331% no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
 .svg-outline-maestro {
-	background: url(svg/sprite.css.svg) 75% 83.04392236976507% no-repeat;
+	background: url("svg/sprite.css.svg") 80% 33.80064968370662% no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
 .svg-outline-mastercard {
-	background: url(svg/sprite.css.svg) 100% 0 no-repeat;
+	background: url("svg/sprite.css.svg") 80% 50.70097452555992% no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
 .svg-outline-paypal {
-	background: url(svg/sprite.css.svg) 100% 16.828396322778346% no-repeat;
+	background: url("svg/sprite.css.svg") 80% 67.60129936741323% no-repeat;
+	width: 122px;
+	height: 79.08px;
+}
+.svg-outline-security-code {
+	background: url("svg/sprite.css.svg") 0 99.93161224140879% no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
 .svg-outline-visa {
-	background: url(svg/sprite.css.svg) 100% 33.65679264555669% no-repeat;
+	background: url("svg/sprite.css.svg") 20% 99.93161224140879% no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
 .svg-single-amex {
-	background: url(svg/sprite.css.svg) 100% 50.279755849440484% no-repeat;
+	background: url("svg/sprite.css.svg") 60% 66.22680061297463% no-repeat;
 	width: 122px;
 	height: 77.16px;
 }
 .svg-single-diners {
-	background: url(svg/sprite.css.svg) 100% 66.66101263675684% no-repeat;
+	background: url("svg/sprite.css.svg") 40% 99.56562473383869% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-single-discover {
-	background: url(svg/sprite.css.svg) 0 99.8723186925434% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 0 no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
 .svg-single-jcb {
-	background: url(svg/sprite.css.svg) 100% 83.06335340513951% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 16.838429435312154% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-single-maestro {
-	background: url(svg/sprite.css.svg) 25% 66.33873293189721% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 33.31062090111575% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-single-mastercard {
-	background: url(svg/sprite.css.svg) 50% 66.33873293189721% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 49.782812366919345% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
 .svg-single-paypal {
-	background: url(svg/sprite.css.svg) 25% 99.8723186925434% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 66.49854676012994% no-repeat;
 	width: 122px;
 	height: 79.08px;
 }
 .svg-single-visa {
-	background: url(svg/sprite.css.svg) 75% 66.33873293189721% no-repeat;
+	background: url("svg/sprite.css.svg") 100% 83.0934332680351% no-repeat;
 	width: 122px;
 	height: 77.36px;
 }
@@ -189,9 +219,9 @@ This is an all-in-one inline version of the CSS necessary to use the SVG sprite.
 			<p>This preview features the generated SVG file as a conventional CSS sprite. The shapes are displayed as background images of several <code>&lt;i&gt;</code> elements.</p>
 		</header>
 		<section>
-			
+
 <!--
-	
+
 Conventional CSS sprite
 ====================================================================================================
 This technique uses CSS classes to display portions of the sprite as background image of
@@ -200,292 +230,345 @@ appropriately sized elements.
 -->
 
 			<ul>
-				
 				<li title="flat-amex">
 					<div class="icon-box">
-						
+
 						<!-- flat-amex -->
 						<i class="svg-flat-amex">flat-amex</i>
-						
+
 					</div>
 					<h2>flat-amex</h2>
 				</li>
+				<li title="flat-default">
+					<div class="icon-box">
+
+						<!-- flat-default -->
+						<i class="svg-flat-default">flat-default</i>
+
+					</div>
+					<h2>flat-default</h2>
+				</li>
 				<li title="flat-diners">
 					<div class="icon-box">
-						
+
 						<!-- flat-diners -->
 						<i class="svg-flat-diners">flat-diners</i>
-						
+
 					</div>
 					<h2>flat-diners</h2>
 				</li>
 				<li title="flat-discover">
 					<div class="icon-box">
-						
+
 						<!-- flat-discover -->
 						<i class="svg-flat-discover">flat-discover</i>
-						
+
 					</div>
 					<h2>flat-discover</h2>
 				</li>
 				<li title="flat-jcb">
 					<div class="icon-box">
-						
+
 						<!-- flat-jcb -->
 						<i class="svg-flat-jcb">flat-jcb</i>
-						
+
 					</div>
 					<h2>flat-jcb</h2>
 				</li>
 				<li title="flat-maestro">
 					<div class="icon-box">
-						
+
 						<!-- flat-maestro -->
 						<i class="svg-flat-maestro">flat-maestro</i>
-						
+
 					</div>
 					<h2>flat-maestro</h2>
 				</li>
 				<li title="flat-mastercard">
 					<div class="icon-box">
-						
+
 						<!-- flat-mastercard -->
 						<i class="svg-flat-mastercard">flat-mastercard</i>
-						
+
 					</div>
 					<h2>flat-mastercard</h2>
 				</li>
 				<li title="flat-paypal">
 					<div class="icon-box">
-						
+
 						<!-- flat-paypal -->
 						<i class="svg-flat-paypal">flat-paypal</i>
-						
+
 					</div>
 					<h2>flat-paypal</h2>
 				</li>
+				<li title="flat-security-code">
+					<div class="icon-box">
+
+						<!-- flat-security-code -->
+						<i class="svg-flat-security-code">flat-security-code</i>
+
+					</div>
+					<h2>flat-security-code</h2>
+				</li>
 				<li title="flat-visa">
 					<div class="icon-box">
-						
+
 						<!-- flat-visa -->
 						<i class="svg-flat-visa">flat-visa</i>
-						
+
 					</div>
 					<h2>flat-visa</h2>
 				</li>
 				<li title="mono-amex">
 					<div class="icon-box">
-						
+
 						<!-- mono-amex -->
 						<i class="svg-mono-amex">mono-amex</i>
-						
+
 					</div>
 					<h2>mono-amex</h2>
 				</li>
+				<li title="mono-default">
+					<div class="icon-box">
+
+						<!-- mono-default -->
+						<i class="svg-mono-default">mono-default</i>
+
+					</div>
+					<h2>mono-default</h2>
+				</li>
 				<li title="mono-diners">
 					<div class="icon-box">
-						
+
 						<!-- mono-diners -->
 						<i class="svg-mono-diners">mono-diners</i>
-						
+
 					</div>
 					<h2>mono-diners</h2>
 				</li>
 				<li title="mono-discover">
 					<div class="icon-box">
-						
+
 						<!-- mono-discover -->
 						<i class="svg-mono-discover">mono-discover</i>
-						
+
 					</div>
 					<h2>mono-discover</h2>
 				</li>
 				<li title="mono-jcb">
 					<div class="icon-box">
-						
+
 						<!-- mono-jcb -->
 						<i class="svg-mono-jcb">mono-jcb</i>
-						
+
 					</div>
 					<h2>mono-jcb</h2>
 				</li>
 				<li title="mono-maestro">
 					<div class="icon-box">
-						
+
 						<!-- mono-maestro -->
 						<i class="svg-mono-maestro">mono-maestro</i>
-						
+
 					</div>
 					<h2>mono-maestro</h2>
 				</li>
 				<li title="mono-mastercard">
 					<div class="icon-box">
-						
+
 						<!-- mono-mastercard -->
 						<i class="svg-mono-mastercard">mono-mastercard</i>
-						
+
 					</div>
 					<h2>mono-mastercard</h2>
 				</li>
 				<li title="mono-paypal">
 					<div class="icon-box">
-						
+
 						<!-- mono-paypal -->
 						<i class="svg-mono-paypal">mono-paypal</i>
-						
+
 					</div>
 					<h2>mono-paypal</h2>
 				</li>
+				<li title="mono-security-code">
+					<div class="icon-box">
+
+						<!-- mono-security-code -->
+						<i class="svg-mono-security-code">mono-security-code</i>
+
+					</div>
+					<h2>mono-security-code</h2>
+				</li>
 				<li title="mono-visa">
 					<div class="icon-box">
-						
+
 						<!-- mono-visa -->
 						<i class="svg-mono-visa">mono-visa</i>
-						
+
 					</div>
 					<h2>mono-visa</h2>
 				</li>
 				<li title="outline-amex">
 					<div class="icon-box">
-						
+
 						<!-- outline-amex -->
 						<i class="svg-outline-amex">outline-amex</i>
-						
+
 					</div>
 					<h2>outline-amex</h2>
 				</li>
+				<li title="outline-default">
+					<div class="icon-box">
+
+						<!-- outline-default -->
+						<i class="svg-outline-default">outline-default</i>
+
+					</div>
+					<h2>outline-default</h2>
+				</li>
 				<li title="outline-diners">
 					<div class="icon-box">
-						
+
 						<!-- outline-diners -->
 						<i class="svg-outline-diners">outline-diners</i>
-						
+
 					</div>
 					<h2>outline-diners</h2>
 				</li>
 				<li title="outline-discover">
 					<div class="icon-box">
-						
+
 						<!-- outline-discover -->
 						<i class="svg-outline-discover">outline-discover</i>
-						
+
 					</div>
 					<h2>outline-discover</h2>
 				</li>
 				<li title="outline-jcb">
 					<div class="icon-box">
-						
+
 						<!-- outline-jcb -->
 						<i class="svg-outline-jcb">outline-jcb</i>
-						
+
 					</div>
 					<h2>outline-jcb</h2>
 				</li>
 				<li title="outline-maestro">
 					<div class="icon-box">
-						
+
 						<!-- outline-maestro -->
 						<i class="svg-outline-maestro">outline-maestro</i>
-						
+
 					</div>
 					<h2>outline-maestro</h2>
 				</li>
 				<li title="outline-mastercard">
 					<div class="icon-box">
-						
+
 						<!-- outline-mastercard -->
 						<i class="svg-outline-mastercard">outline-mastercard</i>
-						
+
 					</div>
 					<h2>outline-mastercard</h2>
 				</li>
 				<li title="outline-paypal">
 					<div class="icon-box">
-						
+
 						<!-- outline-paypal -->
 						<i class="svg-outline-paypal">outline-paypal</i>
-						
+
 					</div>
 					<h2>outline-paypal</h2>
 				</li>
+				<li title="outline-security-code">
+					<div class="icon-box">
+
+						<!-- outline-security-code -->
+						<i class="svg-outline-security-code">outline-security-code</i>
+
+					</div>
+					<h2>outline-security-code</h2>
+				</li>
 				<li title="outline-visa">
 					<div class="icon-box">
-						
+
 						<!-- outline-visa -->
 						<i class="svg-outline-visa">outline-visa</i>
-						
+
 					</div>
 					<h2>outline-visa</h2>
 				</li>
 				<li title="single-amex">
 					<div class="icon-box">
-						
+
 						<!-- single-amex -->
 						<i class="svg-single-amex">single-amex</i>
-						
+
 					</div>
 					<h2>single-amex</h2>
 				</li>
 				<li title="single-diners">
 					<div class="icon-box">
-						
+
 						<!-- single-diners -->
 						<i class="svg-single-diners">single-diners</i>
-						
+
 					</div>
 					<h2>single-diners</h2>
 				</li>
 				<li title="single-discover">
 					<div class="icon-box">
-						
+
 						<!-- single-discover -->
 						<i class="svg-single-discover">single-discover</i>
-						
+
 					</div>
 					<h2>single-discover</h2>
 				</li>
 				<li title="single-jcb">
 					<div class="icon-box">
-						
+
 						<!-- single-jcb -->
 						<i class="svg-single-jcb">single-jcb</i>
-						
+
 					</div>
 					<h2>single-jcb</h2>
 				</li>
 				<li title="single-maestro">
 					<div class="icon-box">
-						
+
 						<!-- single-maestro -->
 						<i class="svg-single-maestro">single-maestro</i>
-						
+
 					</div>
 					<h2>single-maestro</h2>
 				</li>
 				<li title="single-mastercard">
 					<div class="icon-box">
-						
+
 						<!-- single-mastercard -->
 						<i class="svg-single-mastercard">single-mastercard</i>
-						
+
 					</div>
 					<h2>single-mastercard</h2>
 				</li>
 				<li title="single-paypal">
 					<div class="icon-box">
-						
+
 						<!-- single-paypal -->
 						<i class="svg-single-paypal">single-paypal</i>
-						
+
 					</div>
 					<h2>single-paypal</h2>
 				</li>
 				<li title="single-visa">
 					<div class="icon-box">
-						
+
 						<!-- single-visa -->
 						<i class="svg-single-visa">single-visa</i>
-						
+
 					</div>
 					<h2>single-visa</h2>
 				</li>
@@ -497,7 +580,7 @@ appropriately sized elements.
 
 		</section>
 		<footer>
-			<p>Generated at Fri, 04 Sep 2015 13:29:17 GMT by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
+			<p>Generated at Tue, 06 Sep 2016 19:08:42 GMT by <a href="https://github.com/jkphl/svg-sprite" target="_blank">svg-sprite</a>.</p>
 		</footer>
 	</body>
 </html>
