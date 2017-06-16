@@ -1,8 +1,7 @@
 language: node_js
 sudo: false
 node_js:
-- '0.10'
-before_install: npm install -g npm@'>=2.13.5'
+- '4'
 deploy:
   provider: npm
   email: scolville@mozilla.com
