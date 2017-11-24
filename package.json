@@ -26,7 +26,7 @@
     "grunt-contrib-clean": "^1.0.0",
     "grunt-gh-pages": "^2.0.0",
     "grunt-svg-sprite": "^1.1.2",
-    "grunt-svgmin": "^4.0.0",
+    "grunt-svgmin": "^5.0.0",
     "load-grunt-tasks": "^3.1.0"
   }
 }
