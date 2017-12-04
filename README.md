@@ -12,6 +12,10 @@ output is in the min dir.
 The easiest way to consume these icons is to npm install from github and use your favorite toolchain
 to build fonts or sprites e.g.
 
+`yarn add payment-icons`
+
+or
+
 `npm install payment-icons`
 
 ## Example
@@ -23,6 +27,14 @@ Examples generated with grunt-svg-sprite can be seen here: http://muffinresear.c
 If you want to remix these icons, have at it. If you have additional icons you want to be included
 then please follow the examples given and add your icon for each of the existing styles
 and make a pull request.
+
+
+## CLI
+
+Note: This CLI is only relevant for development or maintenance purposes.
+
+* `yarn build` - creates minified SVG.
+* `yarn publish` - builds the sprite and publishes it to github pages.
 
 ##  License
 
