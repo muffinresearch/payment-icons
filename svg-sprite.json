@@ -1,0 +1,23 @@
+{
+    "dest": "build",
+    "shape": {
+        "id": {
+            "separator": "-"
+        },
+        "dimension": {
+            "maxWidth": 120,
+            "maxHeight": 120
+        },
+        "spacing": {
+            "padding": 1
+        }
+    },
+    "mode": {
+        "css": {
+            "bust": false,
+            "example": {
+                "dest": "index.html"
+            }
+        }
+    }
+}
