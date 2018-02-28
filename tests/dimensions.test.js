@@ -10,6 +10,11 @@ describe('Test dimensions', () => {
   for (var i=0; i<files.length; i++){
     const file = files[i];
 
+    // Ignore individual logos.
+    if (file.includes('svg/single')) {
+      continue;
+    }
+
     it(`should have consistent height for ${file}`, (done) => {
       fs.readFile(file, (err, data) => {
         const $ = cheerio.load(data);
@@ -36,7 +41,3 @@ describe('Test dimensions', () => {
 
   }
 });
-
-
-
-

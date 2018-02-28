@@ -17,5 +17,13 @@ describe('Test security', () => {
         done();
       });
     });
+
+    it(`should have no style ${file}`, (done) => {
+      fs.readFile(file, (err, data) => {
+        const $ = cheerio.load(data);
+        expect($('style').length).toBe(0);
+        done();
+      });
+    });
   }
 });
