@@ -1,4 +1,5 @@
 [![npm version](https://badge.fury.io/js/payment-icons.svg)](http://badge.fury.io/js/payment-icons)
+[![Build Status](https://travis-ci.org/muffinresearch/payment-icons.svg?branch=master)](https://travis-ci.org/muffinresearch/payment-icons)
 
 # Payment-icons
 

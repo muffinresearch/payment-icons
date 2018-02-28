@@ -1,7 +1,7 @@
 language: node_js
 sudo: false
 node_js:
-- '4'
+- '6'
 deploy:
   provider: npm
   email: scolville@mozilla.com
@@ -10,3 +10,5 @@ deploy:
   on:
     tags: true
     repo: muffinresearch/payment-icons
+script:
+  - yarn run test-ci
