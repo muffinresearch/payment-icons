@@ -10,3 +10,5 @@ deploy:
   on:
     tags: true
     repo: muffinresearch/payment-icons
+script:
+  - yarn run test-ci
