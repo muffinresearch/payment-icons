@@ -6,7 +6,7 @@
     "clean": "rimraf min/**/*.svg build/",
     "sprite": "svg-sprite -C ./svg-sprite.json 'min/./**/*.svg'",
     "minify": "svgo -f svg/flat/ -o min/flat && svgo -f svg/mono/ -o min/mono && svgo -f svg/outline -o min/outline && svgo -f svg/single -o min/single",
-    "publish": "yarn build && yarn sprite && gh-pages -dist build/css --repo 'git@github.com:muffinresearch/payment-icons.git'  --message 'updating example'",
+    "publish": "yarn build && yarn sprite && gh-pages -d build/css --repo 'git@github.com:muffinresearch/payment-icons.git'  --message 'updating example'",
     "build": "yarn run clean && yarn run minify",
     "test": "jest tests --watch",
     "test-ci": "jest tests"
