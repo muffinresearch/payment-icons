@@ -21,7 +21,7 @@ or
 
 ## Example
 
-Examples generated with grunt-svg-sprite can be seen here: http://muffinresear.ch/payment-icons/
+Examples generated with svg-sprite can be seen here: http://muffinresear.ch/payment-icons/
 
 ## Contributing icons
 
@@ -34,8 +34,8 @@ and make a pull request.
 
 Note: This CLI is only relevant for development or maintenance purposes.
 
-* `yarn build` - creates minified SVG.
-* `yarn publish` - builds the sprite and publishes it to github pages.
+* `yarn run build` - creates minified SVG.
+* `yarn run publish` - builds the sprite and publishes it to github pages.
 
 ##  License
 
