@@ -19,7 +19,19 @@ or
 
 `npm install payment-icons`
 
-## Example
+### How to use in something like react?
+
+You'll need to use the svg like you do any other image asset. Exactly how will depend on what you're using in your build process. 
+
+If you're using webpack for example, then as long as your loader config understands `svg` you can import like you would with any other image. [Here's an example for doing that (this is from create-react-app which uses webpack) ](https://github.com/facebook/create-react-app/blob/dfbc71ce2ae07547a8544cce14a1a23fac99e071/packages/react-scripts/template/README.md#adding-images-fonts-and-files)
+
+Doing it that way you'll need to find the path from `node_modules/payment-icons/` so if you're looking for the flat visa icon that should be something like this:
+
+```javascript
+import visa from 'payment-icons/min/flat/visa.svg';
+```
+
+## Icon Demo
 
 Examples generated with svg-sprite can be seen here: http://muffinresear.ch/payment-icons/
 
