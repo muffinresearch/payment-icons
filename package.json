@@ -30,7 +30,7 @@
   "devDependencies": {
     "babel-core": "6.26.3",
     "babel-jest": "23.6.0",
-    "babel-preset-env": "1.6.1",
+    "babel-preset-env": "1.7.0",
     "cheerio": "1.0.0-rc.2",
     "gh-pages": "2.0.1",
     "glob": "7.1.2",
