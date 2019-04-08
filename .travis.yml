@@ -4,11 +4,11 @@ node_js:
 - '6'
 deploy:
   provider: npm
-  email: scolville@mozilla.com
+  email: npm@muffinresearch.co.uk
   api_key:
-    secure: LAH/gwwkyD68uh6q5WV9ojYuE7erY2pzSPQ6KUpp7M66N+cRrJp7/6R4/0cWYxdR8uKr4h1OOuA6Ex1mLTQTpmxS9QYL6CfkdShQYOcB5rzw1aeoTAV8gfyB7z4qZMO/DiGUfrx7to2ShEq2ORdLtrWRA8DERZb1k+/AU5fbge4=
+    secure: VWARblBsd9uRP9DYw0ky2pf0PbzlNouElpNT9YbMiYiQmr05i2c1JTfLDIRWAHsEG1/OGnL/f6AfO98HVoJQfTRk7CalDPiOBUEo9WpSi9jkwVLcekYZ06b4rgKPYmq1u6A3YgSrpBzMpSw2eUyIDEgDXZJEk1tWFKRL/69E4HE=
   on:
     tags: true
     repo: muffinresearch/payment-icons
 script:
-  - yarn run test-ci
+- yarn run test-ci
