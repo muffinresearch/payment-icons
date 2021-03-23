@@ -2090,9 +2090,9 @@ ecc-jsbn@~0.1.1:
     safer-buffer "^2.1.0"
 
 electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.649:
-  version "1.3.693"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.693.tgz#5089c506a925c31f93fcb173a003a22e341115dd"
-  integrity sha512-vUdsE8yyeu30RecppQtI+XTz2++LWLVEIYmzeCaCRLSdtKZ2eXqdJcrs85KwLiPOPVc6PELgWyXBsfqIvzGZag==
+  version "1.3.694"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.694.tgz#f5dbbec0ce9bbf93487b7d38b8396f4e58ab51c8"
+  integrity sha512-8YJ/OZjbK5luOd27dmk34B47oa/zNGRHrKTEmfO3qPns1kFAJ36Lb+OtYzNlCoXtkPYuDbX0ztofuL7ArMHJkQ==
 
 email-addresses@^3.0.1:
   version "3.1.0"
@@ -4805,9 +4805,9 @@ semver@^6.0.0, semver@^6.3.0:
   integrity sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
 
 semver@^7.3.2:
-  version "7.3.4"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.4.tgz#27aaa7d2e4ca76452f98d3add093a72c943edc97"
-  integrity sha512-tCfb2WLjqFAtXn4KEdxIhalnRtoKFN7nAwj0B3ZXCbQloV2tq5eDbcTmT68JJD3nRJq24/XgxtQKFIpQdtvmVw==
+  version "7.3.5"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.5.tgz#0b621c879348d8998e4b0e4be94b3f12e6018ef7"
+  integrity sha512-PoeGJYh8HK4BTO/a9Tf6ZG3veo/A7ZVsYrSA6J8ny9nb3B1VrpkuN+z9OE5wfE5p6H4LchYZsegiQgbJD94ZFQ==
   dependencies:
     lru-cache "^6.0.0"
 
