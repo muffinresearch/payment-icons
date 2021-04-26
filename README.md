@@ -1,4 +1,4 @@
-Note: This package is no longer maintained
+**Note: This package is no longer maintained**
 
 
 [![npm version](https://badge.fury.io/js/payment-icons.svg)](http://badge.fury.io/js/payment-icons)
